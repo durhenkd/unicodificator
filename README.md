@@ -51,9 +51,9 @@ Width: 63 | Height: 80, raw length:5040
 
 ## How it works
 
-Simply, it make use of the `image` crate to open your file and manipulate it (in a way specified by the parameters), and prints out the output.
+Simply, it makes use of the `image` crate to open your file and manipulate it (in a way specified by the parameters), and prints out the output.
 
-Usage: ./unicoficator {file} {size} {filter} \[constrast_modifier\]
+Usage: `./unicoficator {file} {size} {filter} [constrast_modifier]`
 
 - **file** - the file you want to render
 - **size** - the size (in col or rows) of the output, the program will keep the aspect ratio
